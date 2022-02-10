@@ -51,6 +51,9 @@ p {
   font-size:1.5rem;
   font-weight:bold;
 }
+.navbar-nav{
+  text-align: left;
+}
 .navbar-search-btn{
   background-color:#ffffff;
   color:#1572A1
@@ -66,7 +69,9 @@ p {
   background-color: #a9d8ef;
   color: #000066;
 }
-
+.title-images{
+  text-align: center;
+}
 .title-img {
   margin-top: 10rem;
   margin-bottom: 1rem;
@@ -208,11 +213,11 @@ p {
 @media (max-width:992px){
   .title-img {
     margin-bottom: 5rem;
-    padding-left:0rem;
+    /* padding-left:0rem; */
   }
 }
 
-@media(max-width:992px){
+@media (max-width:992px){
   .title-img2 {
     position: static;
     z-index: 1;
@@ -225,9 +230,9 @@ p {
   }
 }
 
-@media(max-width:828px){
+@media (max-width:828px){
   .tech-img{
-    width:17%;
+    width:20%;
     padding:1rem 1rem
   }
 }
